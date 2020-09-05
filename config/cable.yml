@@ -1,6 +1,6 @@
-production:
-  adapter: redis
-  url: redis://redistogo:59f6e1122d8c7cac0b917cff34121e58@dory.redistogo.com:9876/
+# production:
+#   adapter: redis
+#   url: redis://redistogo:59f6e1122d8c7cac0b917cff34121e58@dory.redistogo.com:9876/
 
 development:
   adapter: async

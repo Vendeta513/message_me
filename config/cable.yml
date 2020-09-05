@@ -1,11 +1,10 @@
-# production:
-#   adapter: redis
-#   url: redis://redistogo:59f6e1122d8c7cac0b917cff34121e58@dory.redistogo.com:9876/
+production:
+  adapter: redis
+  url: redis://:6WcR7Gm0q7Uw0GSL80EUzKeZ2yNckzYf@redis-11960.c10.us-east-1-2.ec2.cloud.redislabs.com:11960
 
 development:
   adapter: async
 
 test:
   adapter: async
-
 

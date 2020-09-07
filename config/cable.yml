@@ -1,6 +1,6 @@
 production:
   adapter: redis
-  url: redis://:6WcR7Gm0q7Uw0GSL80EUzKeZ2yNckzYf@redis-11960.c10.us-east-1-2.ec2.cloud.redislabs.com:11960
+  url: redis://redistogo:7cf2e4e3fba2d0b0b7f88a31daf4ca9a@pearlfish.redistogo.com:9244/
 
 development:
   adapter: async

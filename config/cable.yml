@@ -1,6 +1,6 @@
 production:
-  adapter: redis
-  url: redis://redistogo:7cf2e4e3fba2d0b0b7f88a31daf4ca9a@pearlfish.redistogo.com:9244/
+  # adapter: redis
+  # url: redis://redistogo:7cf2e4e3fba2d0b0b7f88a31daf4ca9a@pearlfish.redistogo.com:9244/
 
 development:
   adapter: async

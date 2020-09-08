@@ -1,0 +1,20 @@
+<h4 class="ui center aligned medium icon header">
+  <i class="circular orange coffee icon"></i>
+  Sign up
+</h4>
+
+<%= render 'shared/error', obj: @user %>
+
+<%= form_for(@user, html: {class: "ui form", role: "form"}, url: users_path) do |f| %>
+  <div class="field">
+    <%= f.label :username, "Username" %>
+    <%= f.text_field :username, placeholder: "Username" %>
+  </div>
+  <div class="field">
+    <%= f.label :password, "Password" %>
+    <%= f.password_field :password, placeholder: "password" %>
+  </div>
+  <%= f.submit "Sign up", class: "ui orange button" %>
+<% end %>
+
+
